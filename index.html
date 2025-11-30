@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Step 2 - Choose Nail Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="service-container">
+        <h2>Choose Nail Service</h2>
+
+        <div class="service-card" onclick="selectService('Classic Manicure')">
+            <h3>Classic Manicure</h3>
+            <p>Simple and clean nail care.</p>
+            <span>₹299</span>
+        </div>
+
+        <div class="service-card" onclick="selectService('Gel Manicure')">
+            <h3>Gel Manicure</h3>
+            <p>Long-lasting glossy gel finish.</p>
+            <span>₹499</span>
+        </div>
+
+        <div class="service-card" onclick="selectService('Nail Extensions')">
+            <h3>Nail Extensions</h3>
+            <p>Length + shape enhancement.</p>
+            <span>₹899</span>
+        </div>
+
+        <div class="service-card" onclick="selectService('Nail Art')">
+            <h3>Nail Art</h3>
+            <p>Custom designs & creativity.</p>
+            <span>₹150–₹500</span>
+        </div>
+
+        <button id="next-btn" onclick="goToAddons()" disabled>Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Step 3 - Choose Add-Ons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="addons-container">
+        <h2>Choose Add-Ons (Optional)</h2>
+
+        <div class="addon-card" onclick="toggleAddon('Basic Nail Art')">
+            <h3>Basic Nail Art</h3>
+            <p>Simple designs</p>
+            <span>₹150</span>
+        </div>
+
+        <div class="addon-card" onclick="toggleAddon('Advanced Nail Art')">
+            <h3>Advanced Nail Art</h3>
+            <p>Detailed custom designs</p>
+            <span>₹300–₹500</span>
+        </div>
+
+        <div class="addon-card" onclick="toggleAddon('Chrome Finish')">
+            <h3>Chrome Finish</h3>
+            <p>Shiny metallic look</p>
+            <span>₹200</span>
+        </div>
+
+        <div class="addon-card" onclick="toggleAddon('Glitter Nails')">
+            <h3>Glitter Nails</h3>
+            <p>Shimmer & sparkle</p>
+            <span>₹100</span>
+        </div>
+
+        <button id="continue-btn" onclick="goToConfirm()">Continue</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
