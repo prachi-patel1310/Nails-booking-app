@@ -26,5 +26,7 @@ nails-booking-app/
 │── canva-share-link.txt
 │── README.md
 👩‍🎨 About the Designer
+🔗 Canva Project Link
+👉 https://prachi-uiux.my.canva.site/
 
 Designed by Prachi Patel, passionate about creating clean, modern, and user-friendly UI/UX designs using Canva & Figma.
